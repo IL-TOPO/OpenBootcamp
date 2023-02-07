@@ -1,0 +1,38 @@
+body {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.btn-modern {
+    position: relative;
+    padding: 10px 20px;
+    border-radius: 8px;
+    border: none;
+    background-color: lightskyblue;
+    color: whitesmoke;
+    font-weight: bolder;
+    border-bottom: 2px solid cyan;
+    border-right: 2px solid cyan;
+    cursor: pointer;
+    transition: background-color 150ms;
+}
+
+span {
+    color: blueviolet;
+    font-weight: bolder;
+}
+
+.btn-modern:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(5, 240, 248, 0.5);
+    background-color: lightcyan;
+    color: lime;
+    transition: all 0.4s ease;
+}
+
+
+
